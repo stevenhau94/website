@@ -8,6 +8,7 @@
     <meta name="author" content="www.stevenhau.com - Steven Hau Desarrollador Backend y Frontend">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Steven Hau - Developer</title>
@@ -32,7 +33,7 @@
         </div>
     </header>
     <section id="portafolio" class="contenedor seccion">
-        <h2>Portafolio</h2>
+        <h2>Diseño software y páginas web profesionales</h2>
         <div class="portafolio-contenedor">
             <a class="portafolio-link" href="http://grupocasan.com.mx/servinet/" target="_blank">
                 <div class="portafolio-box">  
@@ -55,14 +56,23 @@
                     <p>Software</p>
                 </div>
             </a>
+            
+        </div>
+        <div class="contenedor-btn">
+            <input type="button" class="btn-vermas" value="Ver Mas">
         </div>
         
     </section>
     <section id="banner">
         <div class="contenedor banner-duo">
-            <h2 class="banner-title">Desarrollos Movil</h2>
-            <p>Apps para android y IOS</p>
+            <h2 class="banner-title">Desarrollo de APPS</h2>
+            <p class="banner-slogan">Apps para android y IOS</p>
+            
         </div>
+        <div class="contenedor-banner">
+            <img src="img/logo-android.png" alt="logo-andorid">
+        </div>
+
     </section>
     <section>
         <h2>Skills</h2>
@@ -70,8 +80,23 @@
         </div>
     </section>
 
-    <footer>
-        <p>Todos los derechos reservados 2020 &copy;</p>
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <div class="">
+                <a class="iconos-redes" href="#"><img src="img/logo-facebook.png" alt="logo-facebook"></a>
+                <a class="iconos-redes" href="#"><img src="img/logo-instagram.png" alt="logo-instagram"></a>
+                <a class="iconos-redes" href="#"><img src="img/logo-linkedin.png" alt="logo-linkedin"></a>
+            </div>
+            
+            <p class="copyrigth">Todos los derechos reservados Steven Hau 2020 &copy;</p>
+        </div>
     </footer>  
+    <script>
+        window.onload = function(){
+            setTimeout(function(){
+                document.getElementById('banner').style.width ='100%';
+            })
+        }
+    </script>
 </body>
 </html>
