@@ -86,18 +86,6 @@ html{
       justify-content: space-between;
       padding-top: 3rem;
   }
-  .menu{
-      text-decoration: none;
-  }
-  .menu a{
-      text-decoration: none;
-      color: azure;
-      font-size: 2.5rem;
-      margin-right: 3rem;
-  }
-  .menu a:last-of-type{
-      margin: 0;
-  }
   /*Secciones Global*/
   h2{
       font-size: 5rem;
@@ -110,10 +98,43 @@ html{
       margin-bottom: 2rem;
       margin-top: 7rem;
   }
+  .centrar-texto{
+      text-align: center;
+  }
+  
+  .menu{
+    text-decoration: none;
+    }
+    .menu-white a{
+        text-decoration: none;
+        color: azure;
+        font-size: 2.5rem;
+        margin-right: 3rem;
+    }
+    .menu-white a:last-of-type{
+        margin: 0;
+    }
+    .menu-black a{
+        text-decoration: none;
+        color: black;
+        font-size: 2.5rem;
+        margin-right: 3rem;
+    }
+    .menu-black a:last-of-type{
+        margin: 0;
+    }
+    .img-contenedor{
+        text-align: center;
+    }
+
+
    /*Seccion del Protafolio*/
    .portafolio-contenedor{
     display: flex;
     justify-content: space-between;
+}
+.portafolio-box{
+    flex-shrink: 0;
 }
 #portafolio h2{
     font-family: 'Bangers', cursive;
@@ -199,6 +220,22 @@ margin-top: 2.5rem;
 margin-left: 3rem;
 width: 20rem;
 } 
+
+/*Seccion Sobre Mi*/
+.header-sobremi{
+    color: black;
+}
+.img-profile{
+align-items: center;
+margin-left: 3rem;
+width: 20rem;
+border-radius: 30rem;
+}
+.contenido-sobremi{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*Footer*/
 .site-footer{
